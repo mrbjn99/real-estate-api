@@ -1,6 +1,6 @@
 const express =require("express");
 const app = express();
-const importData = require("../real-estate-api/data.json");
+const importData = require("./data.json");
 let port = process.env.PORT || 5000;
 
 
